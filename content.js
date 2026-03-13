@@ -10,4 +10,9 @@ if(!currentUrl.startsWith("https"))
     console.log("Warniing: website is not using HTTPS");
 }
 
+if(currentUrl.length > 75) {
+    score += 10;
+    console.log("Warning: URL is suspiciously long");
+}
+
 console.log("Current phishing score: ", score)
