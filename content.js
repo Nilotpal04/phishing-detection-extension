@@ -1,3 +1,3 @@
-console.log("Phishing detector extension running");
+let currentUrl = window.location.href;
 
-alert("Extension is active on this page");
+console.log("Current website URL: ", currentUrl)
